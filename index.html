@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cholas Dynasty — A luxury heritage tour booking platform for South India. Explore the royal trails of the Chola, Pandya, Pallava dynasties and beyond.">
+  <meta name="keywords" content="Tamil Nadu tours, South India luxury travel, Chola temples, heritage tourism, Madurai, Thanjavur, Mahabalipuram">
+  <title>Cholas Dynasty — Royal Heritage Tours of South India</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👑</text></svg>">
+</head>
+<body>
+
+  <!-- Page Loader -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-icon"></div>
+    <div class="loader-text">Cholas Dynasty</div>
+  </div>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="nav-brand">
+        <div class="nav-brand-icon">👑</div>
+        <div class="nav-brand-text">Cholas <span>Dynasty</span></div>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#tours">Royal Trails</a></li>
+        <li><a href="#map">Dynasty Map</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#testimonials">Court Reviews</a></li>
+        <li><a href="#booking" class="nav-cta">Book Now</a></li>
+      </ul>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-pattern"></div>
+      <div class="hero-bg-gradient"></div>
+    </div>
+
+    <div class="hero-particles" id="heroParticles"></div>
+
+    <div class="hero-content">
+      <p class="hero-overline">✦ The Royal Heritage Experience ✦</p>
+      <h1 class="hero-title">
+        Cholas
+        <span class="gold">Dynasty</span>
+      </h1>
+      <p class="hero-subtitle">
+        Walk the corridors of power where kings built empires in stone. 
+        Luxury heritage tours across the ancient kingdoms of South India.
+      </p>
+
+      <div class="hero-search">
+        <input type="text" id="heroSearch" placeholder="Search your dynasty — Chola, Pandya, Pallava..." autocomplete="off">
+        <button class="hero-search-btn" id="heroSearchBtn">Explore</button>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span class="hero-scroll-text">Discover</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ==================== STATS BAR ==================== -->
+  <section class="stats-bar">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item float-up">
+          <div class="stat-number" data-count="1200">0</div>
+          <div class="stat-label">Years of Heritage</div>
+        </div>
+        <div class="stat-item float-up">
+          <div class="stat-number" data-count="48">0</div>
+          <div class="stat-label">Royal Destinations</div>
+        </div>
+        <div class="stat-item float-up">
+          <div class="stat-number" data-count="6">0</div>
+          <div class="stat-label">Dynasty Trails</div>
+        </div>
+        <div class="stat-item float-up">
+          <div class="stat-number" data-count="2400">0</div>
+          <div class="stat-label">Royal Guests Served</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ROYAL ITINERARY GRID ==================== -->
+  <section class="tours-section" id="tours">
+    <div class="container">
+      <div class="tours-header float-up">
+        <p class="section-label">Royal Heritage Trails</p>
+        <h2 class="section-title">Choose Your Dynasty</h2>
+        <div class="gold-divider center"></div>
+        <p class="section-subtitle center">
+          Six meticulously curated journeys through the greatest empires of South India. 
+          Each trail is a portal to a bygone era of grandeur.
+        </p>
+      </div>
+
+      <div class="tours-grid stagger-children" id="toursGrid">
+        <!-- Tour cards will be rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== DESTINATION MAP ==================== -->
+  <section class="map-section" id="map">
+    <div class="container">
+      <div class="map-wrapper">
+        <div class="map-info float-left">
+          <p class="section-label">The Royale Circuit</p>
+          <h2>Explore the <br>Dynasty Map</h2>
+          <div class="gold-divider"></div>
+          <p>
+            From the grand temples of Thanjavur to the sacred shores of Rameswaram, 
+            the Cholas Dynasty circuit connects the most magnificent heritage 
+            destinations across Tamil Nadu.
+          </p>
+
+          <ul class="map-destinations-list" id="mapDestinations">
+            <li class="map-dest-item">
+              <div class="map-dest-dot"></div>
+              <span class="map-dest-name">Thanjavur</span>
+              <span class="map-dest-type">Chola Capital</span>
+            </li>
+            <li class="map-dest-item">
+              <div class="map-dest-dot"></div>
+              <span class="map-dest-name">Madurai</span>
+              <span class="map-dest-type">Pandya Kingdom</span>
+            </li>
+            <li class="map-dest-item">
+              <div class="map-dest-dot"></div>
+              <span class="map-dest-name">Mahabalipuram</span>
+              <span class="map-dest-type">Pallava Shore</span>
+            </li>
+            <li class="map-dest-item">
+              <div class="map-dest-dot"></div>
+              <span class="map-dest-name">Karaikudi</span>
+              <span class="map-dest-type">Chettinad</span>
+            </li>
+            <li class="map-dest-item">
+              <div class="map-dest-dot"></div>
+              <span class="map-dest-name">Kanchipuram</span>
+              <span class="map-dest-type">Temple City</span>
+            </li>
+            <li class="map-dest-item">
+              <div class="map-dest-dot"></div>
+              <span class="map-dest-name">Rameswaram</span>
+              <span class="map-dest-type">Sacred Shore</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="map-visual float-right">
+          <div class="map-svg-container">
+            <!-- SVG Map of Tamil Nadu -->
+            <svg viewBox="0 0 400 550" xmlns="http://www.w3.org/2000/svg" id="tamilNaduMap">
+              <!-- Tamil Nadu outline (simplified) -->
+              <defs>
+                <linearGradient id="mapGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:0.15" />
+                  <stop offset="100%" style="stop-color:#7E191B;stop-opacity:0.1" />
+                </linearGradient>
+                <filter id="glow">
+                  <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+              </defs>
+              
+              <!-- State shape -->
+              <path d="M180 20 L260 30 L300 60 L330 100 L350 150 L370 200 L360 250 L340 300 L310 340 L280 380 L250 420 L220 460 L200 500 L190 520 L180 530 L170 520 L155 490 L140 450 L120 400 L100 350 L80 300 L70 250 L80 200 L100 150 L130 100 L160 60 Z" 
+                    fill="url(#mapGradient)" 
+                    stroke="#D4AF37" 
+                    stroke-width="1.5" 
+                    stroke-opacity="0.3"
+                    class="anti-gravity-slow"/>
+              
+              <!-- Royale Circuit Path -->
+              <path d="M270 80 L290 160 L250 260 L200 320 L160 360 L180 400 L200 500" 
+                    fill="none" 
+                    stroke="#D4AF37" 
+                    stroke-width="1.5" 
+                    stroke-dasharray="8 4"
+                    stroke-opacity="0.5"
+                    class="circuit-path"/>
+              
+              <!-- Destination dots -->
+              <g class="map-dots" filter="url(#glow)">
+                <!-- Chennai -->
+                <circle cx="290" cy="160" r="6" fill="#D4AF37" class="map-dot anti-gravity-fast" data-dest="Chennai">
+                  <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite"/>
+                </circle>
+                <text x="305" y="164" fill="#B0A89A" font-size="10" font-family="Inter, sans-serif">Chennai</text>
+                
+                <!-- Mahabalipuram -->
+                <circle cx="300" cy="200" r="6" fill="#D4AF37" class="map-dot anti-gravity" data-dest="Mahabalipuram">
+                  <animate attributeName="r" values="5;7;5" dur="2.5s" repeatCount="indefinite"/>
+                </circle>
+                <text x="315" y="204" fill="#B0A89A" font-size="10" font-family="Inter, sans-serif">Mahabalipuram</text>
+                
+                <!-- Kanchipuram -->
+                <circle cx="270" cy="140" r="6" fill="#D4AF37" class="map-dot anti-gravity-slow" data-dest="Kanchipuram">
+                  <animate attributeName="r" values="5;7;5" dur="3s" repeatCount="indefinite"/>
+                </circle>
+                <text x="215" y="135" fill="#B0A89A" font-size="10" font-family="Inter, sans-serif">Kanchipuram</text>
+
+                <!-- Thanjavur -->
+                <circle cx="250" cy="260" r="8" fill="#D4AF37" class="map-dot anti-gravity" data-dest="Thanjavur">
+                  <animate attributeName="r" values="6;9;6" dur="2s" repeatCount="indefinite"/>
+                </circle>
+                <text x="195" y="255" fill="#D4AF37" font-size="11" font-weight="bold" font-family="Inter, sans-serif">Thanjavur</text>
+
+                <!-- Karaikudi -->
+                <circle cx="230" cy="320" r="6" fill="#D4AF37" class="map-dot anti-gravity-fast" data-dest="Karaikudi">
+                  <animate attributeName="r" values="5;7;5" dur="2.2s" repeatCount="indefinite"/>
+                </circle>
+                <text x="245" y="324" fill="#B0A89A" font-size="10" font-family="Inter, sans-serif">Karaikudi</text>
+
+                <!-- Madurai -->
+                <circle cx="200" cy="370" r="8" fill="#D4AF37" class="map-dot anti-gravity" data-dest="Madurai">
+                  <animate attributeName="r" values="6;9;6" dur="2.3s" repeatCount="indefinite"/>
+                </circle>
+                <text x="145" y="375" fill="#D4AF37" font-size="11" font-weight="bold" font-family="Inter, sans-serif">Madurai</text>
+
+                <!-- Rameswaram -->
+                <circle cx="230" cy="410" r="6" fill="#D4AF37" class="map-dot anti-gravity-slow" data-dest="Rameswaram">
+                  <animate attributeName="r" values="5;7;5" dur="2.8s" repeatCount="indefinite"/>
+                </circle>
+                <text x="245" y="414" fill="#B0A89A" font-size="10" font-family="Inter, sans-serif">Rameswaram</text>
+
+                <!-- Kanyakumari -->
+                <circle cx="190" cy="510" r="6" fill="#D4AF37" class="map-dot anti-gravity-fast" data-dest="Kanyakumari">
+                  <animate attributeName="r" values="5;7;5" dur="2.6s" repeatCount="indefinite"/>
+                </circle>
+                <text x="130" y="514" fill="#B0A89A" font-size="10" font-family="Inter, sans-serif">Kanyakumari</text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EXPERIENCE SECTION ==================== -->
+  <section class="experience-section" id="experience">
+    <div class="container">
+      <div class="text-center float-up">
+        <p class="section-label">The Royal Treatment</p>
+        <h2 class="section-title">An Experience Beyond Travel</h2>
+        <div class="gold-divider center"></div>
+        <p class="section-subtitle center">
+          Every moment is choreographed to make you feel like the dynasty's most honored guest.
+        </p>
+      </div>
+
+      <div class="experience-grid stagger-children">
+        <div class="experience-card float-up">
+          <div class="experience-icon">🏛️</div>
+          <h3>Heritage Scholars</h3>
+          <p>Private guides who are published historians and archaeologists. Not tour guides — storytellers of empires.</p>
+        </div>
+        <div class="experience-card float-up">
+          <div class="experience-icon">🍽️</div>
+          <h3>Dynasty Cuisine</h3>
+          <p>Each meal recreates the royal kitchens of the Chola, Pandyan, and Nayak courts. 100+ recipes from palm-leaf manuscripts.</p>
+        </div>
+        <div class="experience-card float-up">
+          <div class="experience-icon">🏰</div>
+          <h3>Palace Stays</h3>
+          <p>Sleep in restored heritage mansions and converted palaces. Teak-carved beds, courtyard gardens, and butler service.</p>
+        </div>
+        <div class="experience-card float-up">
+          <div class="experience-icon">🎭</div>
+          <h3>Private Performances</h3>
+          <p>Exclusive classical dance and Nadaswaram recitals in ancient temple courtyards. Art as the kings experienced it.</p>
+        </div>
+        <div class="experience-card float-up">
+          <div class="experience-icon">🧘</div>
+          <h3>Sacred Rituals</h3>
+          <p>Participate in thousand-year-old temple ceremonies. Morning pujas, lamp-lighting, and meditation sessions with temple priests.</p>
+        </div>
+        <div class="experience-card float-up">
+          <div class="experience-icon">✈️</div>
+          <h3>Royal Transfers</h3>
+          <p>Luxury vehicles with silk interiors. Helicopter transfers available on the Grand Dynasty Circuit. Travel like kings.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TESTIMONIALS ==================== -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="text-center float-up">
+        <p class="section-label">Court Reviews</p>
+        <h2 class="section-title">Words From Our Royal Guests</h2>
+        <div class="gold-divider center"></div>
+      </div>
+
+      <div class="testimonials-grid stagger-children">
+        <div class="testimonial-card float-up">
+          <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+          <p class="testimonial-text">
+            "The Chola Trail transformed how I understand South India. Standing inside Brihadeeswarar at sunrise, 
+            with a historian whispering thousand-year-old stories — indescribable."
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">A</div>
+            <div>
+              <div class="testimonial-author-name">Aishwarya Menon</div>
+              <div class="testimonial-author-tour">The Chola Trail • Dec 2025</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card float-up">
+          <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+          <p class="testimonial-text">
+            "The Chettinad Aristocracy tour was pure magic. We dined in a 200-year-old mansion 
+            with the family's own recipes. The Athangudi tiles workshop was the highlight of our trip."
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">R</div>
+            <div>
+              <div class="testimonial-author-name">Rajesh Kumar</div>
+              <div class="testimonial-author-tour">Chettinad Aristocracy • Jan 2026</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card float-up">
+          <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+          <p class="testimonial-text">
+            "We booked the Grand Dynasty Circuit for our anniversary. 10 days, 5 dynasties, 
+            and each day more breathtaking than the last. The helicopter over Thanjavur temples was surreal."
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">S</div>
+            <div>
+              <div class="testimonial-author-name">Sarah & David Chen</div>
+              <div class="testimonial-author-tour">Grand Dynasty Circuit • Feb 2026</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== BOOKING SECTION ==================== -->
+  <section class="booking-section" id="booking">
+    <div class="container">
+      <div class="text-center float-up">
+        <p class="section-label">Royal Concierge</p>
+        <h2 class="section-title">Begin Your Royal Journey</h2>
+        <div class="gold-divider center"></div>
+        <p class="section-subtitle center">
+          Our concierge service tailors every detail of your dynasty experience.
+        </p>
+      </div>
+
+      <div class="booking-wrapper">
+        <div class="booking-card">
+          <!-- Gold ornament corners -->
+
+          <!-- Steps -->
+          <div class="booking-steps">
+            <div class="booking-step active" data-step="1">
+              <div class="booking-step-number">1</div>
+              <span class="booking-step-label">Your Journey</span>
+            </div>
+            <div class="booking-step-connector"></div>
+            <div class="booking-step" data-step="2">
+              <div class="booking-step-number">2</div>
+              <span class="booking-step-label">Royal Preferences</span>
+            </div>
+            <div class="booking-step-connector"></div>
+            <div class="booking-step" data-step="3">
+              <div class="booking-step-number">3</div>
+              <span class="booking-step-label">Confirm</span>
+            </div>
+          </div>
+
+          <!-- Step 1 -->
+          <div class="form-step active" id="formStep1">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" placeholder="Your distinguished name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="your@email.com">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="tourSelect">Select Dynasty Trail</label>
+              <select id="tourSelect">
+                <option value="">Choose your royal journey...</option>
+                <option value="chola-trail">The Chola Trail — ₹89,000</option>
+                <option value="pandyan-kingdom">The Pandyan Kingdom — ₹75,000</option>
+                <option value="chettinad-aristocracy">Chettinad Aristocracy — ₹95,000</option>
+                <option value="pallava-legacy">The Pallava Legacy — ₹68,000</option>
+                <option value="sacred-shores">Sacred Shores — ₹72,000</option>
+                <option value="grand-dynasty-circuit">Grand Dynasty Circuit — ₹1,85,000</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="travelDate">Travel Date</label>
+                <input type="date" id="travelDate">
+              </div>
+              <div class="form-group">
+                <label for="guests">Number of Guests</label>
+                <select id="guests">
+                  <option value="1">1 Guest</option>
+                  <option value="2" selected>2 Guests</option>
+                  <option value="3">3 Guests</option>
+                  <option value="4">4 Guests</option>
+                  <option value="5">5 Guests</option>
+                  <option value="6">6 Guests</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-actions">
+              <div></div>
+              <button class="btn-primary" onclick="nextStep(2)">Continue →</button>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="form-step" id="formStep2">
+            <div class="form-group">
+              <label for="accommodation">Accommodation Tier</label>
+              <select id="accommodation">
+                <option value="premium">Premium Heritage — Restored Mansions</option>
+                <option value="ultra-luxury">Ultra Luxury — Palace Suites</option>
+                <option value="royal-exclusive">Royal Exclusive — Private Villas with Butler</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="dietary">Dietary Preferences</label>
+                <select id="dietary">
+                  <option value="none">No Restrictions</option>
+                  <option value="vegetarian">Vegetarian (Traditional South Indian)</option>
+                  <option value="vegan">Vegan</option>
+                  <option value="jain">Jain</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="transfers">Transfer Preference</label>
+                <select id="transfers">
+                  <option value="luxury-car">Luxury Car (Mercedes / BMW)</option>
+                  <option value="vintage">Vintage Ambassador (Classic)</option>
+                  <option value="helicopter">Helicopter Transfer (Grand Circuit Only)</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="specialRequests">Special Requests</label>
+              <textarea id="specialRequests" placeholder="Any special celebrations, accessibility needs, or bespoke experiences you desire..."></textarea>
+            </div>
+            <div class="form-actions">
+              <button class="btn-secondary" onclick="nextStep(1)">← Back</button>
+              <button class="btn-primary" onclick="nextStep(3)">Continue →</button>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="form-step" id="formStep3">
+            <div style="text-align: center; padding: 20px 0;">
+              <div style="font-size: 3rem; margin-bottom: 16px;">✦</div>
+              <h3 style="font-family: var(--font-display); font-size: 1.5rem; color: var(--gold); margin-bottom: 12px;">
+                Review Your Royal Itinerary
+              </h3>
+              <p style="color: var(--text-secondary); font-style: italic; margin-bottom: 30px;">
+                Your personal concierge will contact you within 2 hours to finalize every detail.
+              </p>
+
+              <div id="bookingSummary" style="text-align: left; background: rgba(212,175,55,0.05); border: 1px solid rgba(212,175,55,0.15); border-radius: 12px; padding: 24px; margin-bottom: 30px;">
+                <!-- Populated by JS -->
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Contact Number (for concierge)</label>
+                <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX">
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn-secondary" onclick="nextStep(2)">← Back</button>
+              <button class="btn-primary" onclick="submitBooking()">
+                ✦ Confirm Royal Booking
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="#" class="nav-brand">
+            <div class="nav-brand-icon">👑</div>
+            <div class="nav-brand-text">Cholas <span>Dynasty</span></div>
+          </a>
+          <p class="footer-brand-desc">
+            The definitive luxury heritage travel platform for South India. 
+            Walk where kings walked, dine where dynasties feasted, 
+            sleep where empires dreamed.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Dynasty Trails</h4>
+          <ul class="footer-links">
+            <li><a href="#tours">The Chola Trail</a></li>
+            <li><a href="#tours">The Pandyan Kingdom</a></li>
+            <li><a href="#tours">Chettinad Aristocracy</a></li>
+            <li><a href="#tours">The Pallava Legacy</a></li>
+            <li><a href="#tours">Sacred Shores</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Royal Services</h4>
+          <ul class="footer-links">
+            <li><a href="#booking">Concierge Booking</a></li>
+            <li><a href="#experience">Heritage Scholars</a></li>
+            <li><a href="#">Private Events</a></li>
+            <li><a href="#">Corporate Retreats</a></li>
+            <li><a href="#">Gift a Dynasty</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Connect</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:concierge@cholasdynasty.com">concierge@cholasdynasty.com</a></li>
+            <li><a href="tel:+914422550000">+91 44 2255 0000</a></li>
+            <li><a href="#">About Our Heritage</a></li>
+            <li><a href="#">Press & Media</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2026 Cholas Dynasty. All Rights Reserved. Crafted with reverence for heritage.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="#" aria-label="Twitter">🐦</a>
+          <a href="#" aria-label="YouTube">🎬</a>
+          <a href="#" aria-label="Facebook">📘</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== TOUR DETAIL MODAL ==================== -->
+  <div class="modal-overlay" id="tourModal">
+    <div class="modal-content" id="tourModalContent">
+      <button class="modal-close" id="modalClose">✕</button>
+      <!-- Populated by JS -->
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
