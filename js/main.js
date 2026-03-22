@@ -1,5 +1,5 @@
 /**
- * Cholas Dynasty - Main Application Logic
+ * Chola Trips - Main Application Logic
  * Handles data fetching, animations, booking flow, and interactive elements
  */
 
