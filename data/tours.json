@@ -13,10 +13,10 @@
     "maxGuests": 8,
     "rating": 4.9,
     "reviews": 247,
-    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&auto=format&fit=crop&q=80",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Brihadeeswarar_Temple_full.jpg/800px-Brihadeeswarar_Temple_full.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1548013146-72479768bada?w=600&auto=format&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&auto=format&fit=crop&q=80"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Brihadeeswarar_Temple_full.jpg/600px-Brihadeeswarar_Temple_full.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Thanjavur_Royal_Palace_and_Museum%2C_Tamil_Nadu.jpg/600px-Thanjavur_Royal_Palace_and_Museum%2C_Tamil_Nadu.jpg"
     ],
     "destinations": ["Thanjavur", "Gangaikondacholapuram", "Darasuram", "Kumbakonam"],
     "highlights": [
@@ -55,10 +55,10 @@
     "maxGuests": 10,
     "rating": 4.8,
     "reviews": 312,
-    "heroImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&auto=format&fit=crop&q=80",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Meenakshi_Amman_Temple_-_Madurai_-_India.jpg/800px-Meenakshi_Amman_Temple_-_Madurai_-_India.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600&auto=format&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1585135497273-1a86d9d19a6d?w=600&auto=format&fit=crop&q=80"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Meenakshi_Amman_Temple_-_Madurai_-_India.jpg/600px-Meenakshi_Amman_Temple_-_Madurai_-_India.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ramanathaswamy_Temple%2C_Rameshwaram%2C_Tamil_Nadu.jpg/600px-Ramanathaswamy_Temple%2C_Rameshwaram%2C_Tamil_Nadu.jpg"
     ],
     "destinations": ["Madurai", "Rameswaram", "Thirunelveli", "Courtallam"],
     "highlights": [
@@ -98,10 +98,10 @@
     "maxGuests": 6,
     "rating": 4.9,
     "reviews": 189,
-    "heroImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop&q=80",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/The_Bangala_Hotel%2C_Karaikudi.jpg/800px-The_Bangala_Hotel%2C_Karaikudi.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&auto=format&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1585135497273-1a86d9d19a6d?w=600&auto=format&fit=crop&q=80"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/The_Bangala_Hotel%2C_Karaikudi.jpg/600px-The_Bangala_Hotel%2C_Karaikudi.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Chettinad_Palace_1.jpg/600px-Chettinad_Palace_1.jpg"
     ],
     "destinations": ["Karaikudi", "Athangudi", "Kanadukathan", "Devakottai"],
     "highlights": [
@@ -139,10 +139,10 @@
     "maxGuests": 12,
     "rating": 4.7,
     "reviews": 278,
-    "heroImage": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&auto=format&fit=crop&q=80",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Mamallapuram%2C_Shore_Temple%2C_Back_View.jpg/800px-Mamallapuram%2C_Shore_Temple%2C_Back_View.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=600&auto=format&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=600&auto=format&fit=crop&q=80"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Mamallapuram%2C_Shore_Temple%2C_Back_View.jpg/600px-Mamallapuram%2C_Shore_Temple%2C_Back_View.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Kailasanathar_temple_Kanchipuram_%282%29.jpg/600px-Kailasanathar_temple_Kanchipuram_%282%29.jpg"
     ],
     "destinations": ["Mahabalipuram", "Kanchipuram", "Chennai", "Vedanthangal"],
     "highlights": [
@@ -181,10 +181,10 @@
     "maxGuests": 10,
     "rating": 4.8,
     "reviews": 198,
-    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ramanathaswamy_Temple%2C_Rameshwaram%2C_Tamil_Nadu.jpg/800px-Ramanathaswamy_Temple%2C_Rameshwaram%2C_Tamil_Nadu.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&auto=format&fit=crop&q=80"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ramanathaswamy_Temple%2C_Rameshwaram%2C_Tamil_Nadu.jpg/600px-Ramanathaswamy_Temple%2C_Rameshwaram%2C_Tamil_Nadu.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Vivekananda_Rock_Memorial_and_Thiruvalluvar_Statue_at_sunrise.jpg/600px-Vivekananda_Rock_Memorial_and_Thiruvalluvar_Statue_at_sunrise.jpg"
     ],
     "destinations": ["Rameswaram", "Tiruchendur", "Kanyakumari", "Dhanushkodi", "Manappad"],
     "highlights": [
@@ -225,10 +225,10 @@
     "maxGuests": 4,
     "rating": 5.0,
     "reviews": 56,
-    "heroImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&auto=format&fit=crop&q=80",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Gangaikonda_cholapuram_sculptures.jpg/800px-Gangaikonda_cholapuram_sculptures.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&auto=format&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1548013146-72479768bada?w=600&auto=format&fit=crop&q=80"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Gangaikonda_cholapuram_sculptures.jpg/600px-Gangaikonda_cholapuram_sculptures.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Brihadeeswarar_Temple_full.jpg/600px-Brihadeeswarar_Temple_full.jpg"
     ],
     "destinations": ["Chennai", "Mahabalipuram", "Kanchipuram", "Thanjavur", "Karaikudi", "Madurai", "Rameswaram", "Kanyakumari"],
     "highlights": [
