@@ -13,12 +13,17 @@
     "maxGuests": 8,
     "rating": 4.9,
     "reviews": 247,
-    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Brihadeeswarar_Temple_full.jpg/800px-Brihadeeswarar_Temple_full.jpg",
+    "heroImage": "https://images.pexels.com/photos/17526538/pexels-photo-17526538.jpeg?auto=compress&cs=tinysrgb&w=800",
     "gallery": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Brihadeeswarar_Temple_full.jpg/600px-Brihadeeswarar_Temple_full.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Thanjavur_Royal_Palace_and_Museum%2C_Tamil_Nadu.jpg/600px-Thanjavur_Royal_Palace_and_Museum%2C_Tamil_Nadu.jpg"
+      "https://images.pexels.com/photos/17526538/pexels-photo-17526538.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3522880/pexels-photo-3522880.jpeg?auto=compress&cs=tinysrgb&w=600"
     ],
-    "destinations": ["Thanjavur", "Gangaikondacholapuram", "Darasuram", "Kumbakonam"],
+    "destinations": [
+      "Thanjavur",
+      "Gangaikondacholapuram",
+      "Darasuram",
+      "Kumbakonam"
+    ],
     "highlights": [
       "Private sunrise viewing at Brihadeeswarar Temple",
       "Heritage walk through 1000-year-old temple corridors",
@@ -27,18 +32,54 @@
       "Luxury stay at a restored Chola-era mansion"
     ],
     "hotels": [
-      { "name": "Svatma Heritage Hotel", "location": "Thanjavur", "tier": "Ultra Luxury" },
-      { "name": "Ideal River View Resort", "location": "Kumbakonam", "tier": "Premium" }
+      {
+        "name": "Svatma Heritage Hotel",
+        "location": "Thanjavur",
+        "tier": "Ultra Luxury"
+      },
+      {
+        "name": "Ideal River View Resort",
+        "location": "Kumbakonam",
+        "tier": "Premium"
+      }
     ],
     "itinerary": [
-      { "day": 1, "title": "Arrival at Thanjavur", "description": "Private airport transfer, welcome ceremony with traditional Chola-era rituals, evening at the illuminated Big Temple." },
-      { "day": 2, "title": "The Great Temple Complex", "description": "Sunrise at Brihadeeswarar Temple, private guided tour of Thanjavur Palace & art gallery, bronze casting workshop." },
-      { "day": 3, "title": "Gangaikondacholapuram", "description": "Journey to the Chola capital, explore the massive temple, royal cuisine lunch, visit ancient irrigation systems." },
-      { "day": 4, "title": "Darasuram & Kumbakonam", "description": "Airavatesvara Temple tour, Kumbakonam temple trail, Mahamaham tank visit, silk weaving demonstration." },
-      { "day": 5, "title": "Departure", "description": "Morning yoga at temple gardens, farewell ceremony, departure with traditional Chola souvenirs." }
+      {
+        "day": 1,
+        "title": "Arrival at Thanjavur",
+        "description": "Private airport transfer, welcome ceremony with traditional Chola-era rituals, evening at the illuminated Big Temple."
+      },
+      {
+        "day": 2,
+        "title": "The Great Temple Complex",
+        "description": "Sunrise at Brihadeeswarar Temple, private guided tour of Thanjavur Palace & art gallery, bronze casting workshop."
+      },
+      {
+        "day": 3,
+        "title": "Gangaikondacholapuram",
+        "description": "Journey to the Chola capital, explore the massive temple, royal cuisine lunch, visit ancient irrigation systems."
+      },
+      {
+        "day": 4,
+        "title": "Darasuram & Kumbakonam",
+        "description": "Airavatesvara Temple tour, Kumbakonam temple trail, Mahamaham tank visit, silk weaving demonstration."
+      },
+      {
+        "day": 5,
+        "title": "Departure",
+        "description": "Morning yoga at temple gardens, farewell ceremony, departure with traditional Chola souvenirs."
+      }
     ],
-    "mapCoordinates": { "lat": 10.7870, "lng": 79.1378 },
-    "tags": ["UNESCO Heritage", "Temple Architecture", "Royal Cuisine", "Cultural Immersion"],
+    "mapCoordinates": {
+      "lat": 10.7870,
+      "lng": 79.1378
+    },
+    "tags": [
+      "UNESCO Heritage",
+      "Temple Architecture",
+      "Royal Cuisine",
+      "Cultural Immersion"
+    ],
     "featured": true
   },
   {
@@ -55,12 +96,17 @@
     "maxGuests": 10,
     "rating": 4.8,
     "reviews": 312,
-    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Meenakshi_Amman_Temple_-_Madurai_-_India.jpg/800px-Meenakshi_Amman_Temple_-_Madurai_-_India.jpg",
+    "heroImage": "https://images.pexels.com/photos/3522880/pexels-photo-3522880.jpeg?auto=compress&cs=tinysrgb&w=800",
     "gallery": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Meenakshi_Amman_Temple_-_Madurai_-_India.jpg/600px-Meenakshi_Amman_Temple_-_Madurai_-_India.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ramanathaswamy_Temple%2C_Rameshwaram%2C_Tamil_Nadu.jpg/600px-Ramanathaswamy_Temple%2C_Rameshwaram%2C_Tamil_Nadu.jpg"
+      "https://images.pexels.com/photos/3522880/pexels-photo-3522880.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/17526538/pexels-photo-17526538.jpeg?auto=compress&cs=tinysrgb&w=600"
     ],
-    "destinations": ["Madurai", "Rameswaram", "Thirunelveli", "Courtallam"],
+    "destinations": [
+      "Madurai",
+      "Rameswaram",
+      "Thirunelveli",
+      "Courtallam"
+    ],
     "highlights": [
       "Exclusive after-hours Meenakshi Temple experience",
       "Sacred corridor walk at Ramanathaswamy Temple",
@@ -69,19 +115,59 @@
       "Waterfall retreat at Courtallam"
     ],
     "hotels": [
-      { "name": "Heritage Madurai by Taj", "location": "Madurai", "tier": "Ultra Luxury" },
-      { "name": "Hyatt Place Rameswaram", "location": "Rameswaram", "tier": "Premium" }
+      {
+        "name": "Heritage Madurai by Taj",
+        "location": "Madurai",
+        "tier": "Ultra Luxury"
+      },
+      {
+        "name": "Hyatt Place Rameswaram",
+        "location": "Rameswaram",
+        "tier": "Premium"
+      }
     ],
     "itinerary": [
-      { "day": 1, "title": "Arrival at Madurai", "description": "Welcome with jasmine garlands, check-in at Heritage Madurai, evening ceremony at Meenakshi Temple." },
-      { "day": 2, "title": "Madurai Heritage Day", "description": "Sunrise puja, Thirumalai Nayakkar Palace, Gandhi Museum, traditional banana leaf lunch, flower market tour." },
-      { "day": 3, "title": "Journey to Rameswaram", "description": "Drive across Pamban Bridge, Ramanathaswamy Temple, Dhanushkodi ghost town excursion." },
-      { "day": 4, "title": "Sacred Rameswaram", "description": "22 sacred wells bathing ritual, Gandhamadana Parvatham, local seafood dining." },
-      { "day": 5, "title": "Thirunelveli & Courtallam", "description": "Nellaiappar Temple, Courtallam waterfalls spa, Halwa tasting experience." },
-      { "day": 6, "title": "Departure", "description": "Morning meditation, souvenir shopping, departure with blessings." }
+      {
+        "day": 1,
+        "title": "Arrival at Madurai",
+        "description": "Welcome with jasmine garlands, check-in at Heritage Madurai, evening ceremony at Meenakshi Temple."
+      },
+      {
+        "day": 2,
+        "title": "Madurai Heritage Day",
+        "description": "Sunrise puja, Thirumalai Nayakkar Palace, Gandhi Museum, traditional banana leaf lunch, flower market tour."
+      },
+      {
+        "day": 3,
+        "title": "Journey to Rameswaram",
+        "description": "Drive across Pamban Bridge, Ramanathaswamy Temple, Dhanushkodi ghost town excursion."
+      },
+      {
+        "day": 4,
+        "title": "Sacred Rameswaram",
+        "description": "22 sacred wells bathing ritual, Gandhamadana Parvatham, local seafood dining."
+      },
+      {
+        "day": 5,
+        "title": "Thirunelveli & Courtallam",
+        "description": "Nellaiappar Temple, Courtallam waterfalls spa, Halwa tasting experience."
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "description": "Morning meditation, souvenir shopping, departure with blessings."
+      }
     ],
-    "mapCoordinates": { "lat": 9.9252, "lng": 78.1198 },
-    "tags": ["Spiritual Journey", "Temple City", "Sacred Waters", "Heritage"],
+    "mapCoordinates": {
+      "lat": 9.9252,
+      "lng": 78.1198
+    },
+    "tags": [
+      "Spiritual Journey",
+      "Temple City",
+      "Sacred Waters",
+      "Heritage"
+    ],
     "featured": true
   },
   {
@@ -98,12 +184,17 @@
     "maxGuests": 6,
     "rating": 4.9,
     "reviews": 189,
-    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/The_Bangala_Hotel%2C_Karaikudi.jpg/800px-The_Bangala_Hotel%2C_Karaikudi.jpg",
+    "heroImage": "https://images.pexels.com/photos/3522888/pexels-photo-3522888.jpeg?auto=compress&cs=tinysrgb&w=800",
     "gallery": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/The_Bangala_Hotel%2C_Karaikudi.jpg/600px-The_Bangala_Hotel%2C_Karaikudi.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Chettinad_Palace_1.jpg/600px-Chettinad_Palace_1.jpg"
+      "https://images.pexels.com/photos/3522888/pexels-photo-3522888.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=600"
     ],
-    "destinations": ["Karaikudi", "Athangudi", "Kanadukathan", "Devakottai"],
+    "destinations": [
+      "Karaikudi",
+      "Athangudi",
+      "Kanadukathan",
+      "Devakottai"
+    ],
     "highlights": [
       "Private mansion tour with Chettiar family hosts",
       "Athangudi handmade tile workshop",
@@ -112,17 +203,49 @@
       "Stay in a 100-year-old restored palace"
     ],
     "hotels": [
-      { "name": "The Bangala", "location": "Karaikudi", "tier": "Heritage Luxury" },
-      { "name": "Visalam", "location": "Kanadukathan", "tier": "Ultra Luxury" }
+      {
+        "name": "The Bangala",
+        "location": "Karaikudi",
+        "tier": "Heritage Luxury"
+      },
+      {
+        "name": "Visalam",
+        "location": "Kanadukathan",
+        "tier": "Ultra Luxury"
+      }
     ],
     "itinerary": [
-      { "day": 1, "title": "Welcome to Chettinad", "description": "Arrival at Karaikudi, check-in at The Bangala, evening heritage walk, welcome dinner with 15 traditional dishes." },
-      { "day": 2, "title": "Palace Hopping", "description": "Visit 5 grand Chettinad mansions, Athangudi tile-making, Kandanur Siva temple, cooking class." },
-      { "day": 3, "title": "Art & Cuisine Day", "description": "Antique market exploration, pillaiyar temple circuit, private Chettinad cooking masterclass, sunset at Devakottai." },
-      { "day": 4, "title": "Departure", "description": "Morning wellness ritual, spice market shopping, departure with handcrafted Athangudi tiles." }
+      {
+        "day": 1,
+        "title": "Welcome to Chettinad",
+        "description": "Arrival at Karaikudi, check-in at The Bangala, evening heritage walk, welcome dinner with 15 traditional dishes."
+      },
+      {
+        "day": 2,
+        "title": "Palace Hopping",
+        "description": "Visit 5 grand Chettinad mansions, Athangudi tile-making, Kandanur Siva temple, cooking class."
+      },
+      {
+        "day": 3,
+        "title": "Art & Cuisine Day",
+        "description": "Antique market exploration, pillaiyar temple circuit, private Chettinad cooking masterclass, sunset at Devakottai."
+      },
+      {
+        "day": 4,
+        "title": "Departure",
+        "description": "Morning wellness ritual, spice market shopping, departure with handcrafted Athangudi tiles."
+      }
     ],
-    "mapCoordinates": { "lat": 10.0735, "lng": 78.7675 },
-    "tags": ["Culinary Heritage", "Mansion Tours", "Artisan Crafts", "Luxury Stay"],
+    "mapCoordinates": {
+      "lat": 10.0735,
+      "lng": 78.7675
+    },
+    "tags": [
+      "Culinary Heritage",
+      "Mansion Tours",
+      "Artisan Crafts",
+      "Luxury Stay"
+    ],
     "featured": true
   },
   {
@@ -139,12 +262,17 @@
     "maxGuests": 12,
     "rating": 4.7,
     "reviews": 278,
-    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Mamallapuram%2C_Shore_Temple%2C_Back_View.jpg/800px-Mamallapuram%2C_Shore_Temple%2C_Back_View.jpg",
+    "heroImage": "https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=800",
     "gallery": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Mamallapuram%2C_Shore_Temple%2C_Back_View.jpg/600px-Mamallapuram%2C_Shore_Temple%2C_Back_View.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Kailasanathar_temple_Kanchipuram_%282%29.jpg/600px-Kailasanathar_temple_Kanchipuram_%282%29.jpg"
+      "https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3522888/pexels-photo-3522888.jpeg?auto=compress&cs=tinysrgb&w=600"
     ],
-    "destinations": ["Mahabalipuram", "Kanchipuram", "Chennai", "Vedanthangal"],
+    "destinations": [
+      "Mahabalipuram",
+      "Kanchipuram",
+      "Chennai",
+      "Vedanthangal"
+    ],
     "highlights": [
       "Moonlit Shore Temple experience",
       "Private silk weaving demonstration in Kanchipuram",
@@ -153,18 +281,54 @@
       "Bird sanctuary visit at Vedanthangal"
     ],
     "hotels": [
-      { "name": "Taj Fisherman's Cove", "location": "Mahabalipuram", "tier": "Ultra Luxury" },
-      { "name": "GRT Regency Kanchipuram", "location": "Kanchipuram", "tier": "Premium" }
+      {
+        "name": "Taj Fisherman's Cove",
+        "location": "Mahabalipuram",
+        "tier": "Ultra Luxury"
+      },
+      {
+        "name": "GRT Regency Kanchipuram",
+        "location": "Kanchipuram",
+        "tier": "Premium"
+      }
     ],
     "itinerary": [
-      { "day": 1, "title": "Chennai Arrival", "description": "Airport pickup, Kapaleeshwarar Temple, Mylapore heritage walk, Marina Beach sunset." },
-      { "day": 2, "title": "Mahabalipuram", "description": "Shore Temple sunrise, Pancha Rathas, Arjuna's Penance, Tiger Cave, beachside luxury dinner." },
-      { "day": 3, "title": "Pallava Art Trail", "description": "Krishna's Butter Ball, Mahishasura Mardini cave, stone carving workshop, DakshinaChitra." },
-      { "day": 4, "title": "Kanchipuram", "description": "Kailasanathar Temple, Ekambareswarar, silk saree shopping with master weavers, temple town exploration." },
-      { "day": 5, "title": "Departure", "description": "Vedanthangal bird sanctuary visit, departure with silk souvenirs." }
+      {
+        "day": 1,
+        "title": "Chennai Arrival",
+        "description": "Airport pickup, Kapaleeshwarar Temple, Mylapore heritage walk, Marina Beach sunset."
+      },
+      {
+        "day": 2,
+        "title": "Mahabalipuram",
+        "description": "Shore Temple sunrise, Pancha Rathas, Arjuna's Penance, Tiger Cave, beachside luxury dinner."
+      },
+      {
+        "day": 3,
+        "title": "Pallava Art Trail",
+        "description": "Krishna's Butter Ball, Mahishasura Mardini cave, stone carving workshop, DakshinaChitra."
+      },
+      {
+        "day": 4,
+        "title": "Kanchipuram",
+        "description": "Kailasanathar Temple, Ekambareswarar, silk saree shopping with master weavers, temple town exploration."
+      },
+      {
+        "day": 5,
+        "title": "Departure",
+        "description": "Vedanthangal bird sanctuary visit, departure with silk souvenirs."
+      }
     ],
-    "mapCoordinates": { "lat": 12.6269, "lng": 80.1927 },
-    "tags": ["UNESCO Heritage", "Rock Art", "Silk Weaving", "Beach Temples"],
+    "mapCoordinates": {
+      "lat": 12.6269,
+      "lng": 80.1927
+    },
+    "tags": [
+      "UNESCO Heritage",
+      "Rock Art",
+      "Silk Weaving",
+      "Beach Temples"
+    ],
     "featured": false
   },
   {
@@ -181,12 +345,18 @@
     "maxGuests": 10,
     "rating": 4.8,
     "reviews": 198,
-    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ramanathaswamy_Temple%2C_Rameshwaram%2C_Tamil_Nadu.jpg/800px-Ramanathaswamy_Temple%2C_Rameshwaram%2C_Tamil_Nadu.jpg",
+    "heroImage": "https://images.pexels.com/photos/7391924/pexels-photo-7391924.jpeg?auto=compress&cs=tinysrgb&w=800",
     "gallery": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ramanathaswamy_Temple%2C_Rameshwaram%2C_Tamil_Nadu.jpg/600px-Ramanathaswamy_Temple%2C_Rameshwaram%2C_Tamil_Nadu.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Vivekananda_Rock_Memorial_and_Thiruvalluvar_Statue_at_sunrise.jpg/600px-Vivekananda_Rock_Memorial_and_Thiruvalluvar_Statue_at_sunrise.jpg"
+      "https://images.pexels.com/photos/7391924/pexels-photo-7391924.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/9310629/pexels-photo-9310629.jpeg?auto=compress&cs=tinysrgb&w=600"
     ],
-    "destinations": ["Rameswaram", "Tiruchendur", "Kanyakumari", "Dhanushkodi", "Manappad"],
+    "destinations": [
+      "Rameswaram",
+      "Tiruchendur",
+      "Kanyakumari",
+      "Dhanushkodi",
+      "Manappad"
+    ],
     "highlights": [
       "Sunrise at Vivekananda Rock Memorial",
       "Sacred 22-well bathing at Rameswaram",
@@ -195,20 +365,64 @@
       "Ancient maritime trade route storytelling"
     ],
     "hotels": [
-      { "name": "Sparsa Resort", "location": "Kanyakumari", "tier": "Premium" },
-      { "name": "Daiwik Hotels", "location": "Rameswaram", "tier": "Premium" }
+      {
+        "name": "Sparsa Resort",
+        "location": "Kanyakumari",
+        "tier": "Premium"
+      },
+      {
+        "name": "Daiwik Hotels",
+        "location": "Rameswaram",
+        "tier": "Premium"
+      }
     ],
     "itinerary": [
-      { "day": 1, "title": "Arrival at Rameswaram", "description": "Drive across Pamban Bridge, evening Aarti at Ramanathaswamy Temple." },
-      { "day": 2, "title": "Sacred Rameswaram", "description": "22-well bathing ritual, Gandhamadana hill, floating stones site." },
-      { "day": 3, "title": "Dhanushkodi", "description": "Ghost town tour, Land's End exploration, fishermen village experience." },
-      { "day": 4, "title": "Tiruchendur", "description": "Subramaniam Temple on the shore, beach meditation, local cuisine." },
-      { "day": 5, "title": "Manappad", "description": "Holy Cross Church, surfing coast, Portuguese heritage." },
-      { "day": 6, "title": "Kanyakumari", "description": "Vivekananda Rock Memorial, Thiruvalluvar Statue, three-ocean sunset." },
-      { "day": 7, "title": "Departure", "description": "Sunrise viewing, Padmanabhapuram Palace detour, departure." }
+      {
+        "day": 1,
+        "title": "Arrival at Rameswaram",
+        "description": "Drive across Pamban Bridge, evening Aarti at Ramanathaswamy Temple."
+      },
+      {
+        "day": 2,
+        "title": "Sacred Rameswaram",
+        "description": "22-well bathing ritual, Gandhamadana hill, floating stones site."
+      },
+      {
+        "day": 3,
+        "title": "Dhanushkodi",
+        "description": "Ghost town tour, Land's End exploration, fishermen village experience."
+      },
+      {
+        "day": 4,
+        "title": "Tiruchendur",
+        "description": "Subramaniam Temple on the shore, beach meditation, local cuisine."
+      },
+      {
+        "day": 5,
+        "title": "Manappad",
+        "description": "Holy Cross Church, surfing coast, Portuguese heritage."
+      },
+      {
+        "day": 6,
+        "title": "Kanyakumari",
+        "description": "Vivekananda Rock Memorial, Thiruvalluvar Statue, three-ocean sunset."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "description": "Sunrise viewing, Padmanabhapuram Palace detour, departure."
+      }
     ],
-    "mapCoordinates": { "lat": 8.0883, "lng": 77.5385 },
-    "tags": ["Spiritual", "Coastal", "Pilgrimage", "Ocean Views"],
+    "mapCoordinates": {
+      "lat": 8.0883,
+      "lng": 77.5385
+    },
+    "tags": [
+      "Spiritual",
+      "Coastal",
+      "Pilgrimage",
+      "Ocean Views"
+    ],
     "featured": false
   },
   {
@@ -225,12 +439,21 @@
     "maxGuests": 4,
     "rating": 5.0,
     "reviews": 56,
-    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Gangaikonda_cholapuram_sculptures.jpg/800px-Gangaikonda_cholapuram_sculptures.jpg",
+    "heroImage": "https://images.pexels.com/photos/9310629/pexels-photo-9310629.jpeg?auto=compress&cs=tinysrgb&w=800",
     "gallery": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Gangaikonda_cholapuram_sculptures.jpg/600px-Gangaikonda_cholapuram_sculptures.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Brihadeeswarar_Temple_full.jpg/600px-Brihadeeswarar_Temple_full.jpg"
+      "https://images.pexels.com/photos/9310629/pexels-photo-9310629.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/11051351/pexels-photo-11051351.jpeg?auto=compress&cs=tinysrgb&w=600"
     ],
-    "destinations": ["Chennai", "Mahabalipuram", "Kanchipuram", "Thanjavur", "Karaikudi", "Madurai", "Rameswaram", "Kanyakumari"],
+    "destinations": [
+      "Chennai",
+      "Mahabalipuram",
+      "Kanchipuram",
+      "Thanjavur",
+      "Karaikudi",
+      "Madurai",
+      "Rameswaram",
+      "Kanyakumari"
+    ],
     "highlights": [
       "Helicopter transfer between cities",
       "Private audiences with temple scholars",
@@ -240,26 +463,94 @@
       "Butler service at every heritage hotel"
     ],
     "hotels": [
-      { "name": "ITC Grand Chola", "location": "Chennai", "tier": "Ultra Luxury" },
-      { "name": "Taj Fisherman's Cove", "location": "Mahabalipuram", "tier": "Ultra Luxury" },
-      { "name": "Svatma", "location": "Thanjavur", "tier": "Ultra Luxury" },
-      { "name": "Visalam", "location": "Chettinad", "tier": "Heritage Luxury" },
-      { "name": "Heritage Madurai", "location": "Madurai", "tier": "Ultra Luxury" }
+      {
+        "name": "ITC Grand Chola",
+        "location": "Chennai",
+        "tier": "Ultra Luxury"
+      },
+      {
+        "name": "Taj Fisherman's Cove",
+        "location": "Mahabalipuram",
+        "tier": "Ultra Luxury"
+      },
+      {
+        "name": "Svatma",
+        "location": "Thanjavur",
+        "tier": "Ultra Luxury"
+      },
+      {
+        "name": "Visalam",
+        "location": "Chettinad",
+        "tier": "Heritage Luxury"
+      },
+      {
+        "name": "Heritage Madurai",
+        "location": "Madurai",
+        "tier": "Ultra Luxury"
+      }
     ],
     "itinerary": [
-      { "day": 1, "title": "Chennai – The Gateway", "description": "Grand welcome at ITC Grand Chola, heritage museum, Mylapore evening walk." },
-      { "day": 2, "title": "Pallava Mahabalipuram", "description": "Shore Temple, rock caves, beachfront luxury dinner." },
-      { "day": 3, "title": "Silk City Kanchipuram", "description": "Temple circuit, private silk atelier, traditional lunch." },
-      { "day": 4, "title": "Chola Thanjavur", "description": "Brihadeeswarar Temple, palace museum, bronze workshop." },
-      { "day": 5, "title": "Chola Heartland", "description": "Gangaikondacholapuram, Darasuram, Kumbakonam temples." },
-      { "day": 6, "title": "Chettinad Mansions", "description": "Palace hopping, Athangudi tiles, 15-course dinner." },
-      { "day": 7, "title": "Chettinad to Madurai", "description": "Cooking masterclass, journey to Madurai, evening Meenakshi temple." },
-      { "day": 8, "title": "Pandyan Madurai", "description": "Full day Madurai exploration, Nayakkar Palace, flower market." },
-      { "day": 9, "title": "Rameswaram", "description": "Pamban Bridge, Ramanathaswamy Temple, Dhanushkodi." },
-      { "day": 10, "title": "Grand Finale", "description": "Kanyakumari sunrise, three-ocean confluence, farewell royal banquet, departure." }
+      {
+        "day": 1,
+        "title": "Chennai  The Gateway",
+        "description": "Grand welcome at ITC Grand Chola, heritage museum, Mylapore evening walk."
+      },
+      {
+        "day": 2,
+        "title": "Pallava Mahabalipuram",
+        "description": "Shore Temple, rock caves, beachfront luxury dinner."
+      },
+      {
+        "day": 3,
+        "title": "Silk City Kanchipuram",
+        "description": "Temple circuit, private silk atelier, traditional lunch."
+      },
+      {
+        "day": 4,
+        "title": "Chola Thanjavur",
+        "description": "Brihadeeswarar Temple, palace museum, bronze workshop."
+      },
+      {
+        "day": 5,
+        "title": "Chola Heartland",
+        "description": "Gangaikondacholapuram, Darasuram, Kumbakonam temples."
+      },
+      {
+        "day": 6,
+        "title": "Chettinad Mansions",
+        "description": "Palace hopping, Athangudi tiles, 15-course dinner."
+      },
+      {
+        "day": 7,
+        "title": "Chettinad to Madurai",
+        "description": "Cooking masterclass, journey to Madurai, evening Meenakshi temple."
+      },
+      {
+        "day": 8,
+        "title": "Pandyan Madurai",
+        "description": "Full day Madurai exploration, Nayakkar Palace, flower market."
+      },
+      {
+        "day": 9,
+        "title": "Rameswaram",
+        "description": "Pamban Bridge, Ramanathaswamy Temple, Dhanushkodi."
+      },
+      {
+        "day": 10,
+        "title": "Grand Finale",
+        "description": "Kanyakumari sunrise, three-ocean confluence, farewell royal banquet, departure."
+      }
     ],
-    "mapCoordinates": { "lat": 11.1271, "lng": 78.6569 },
-    "tags": ["Ultimate Luxury", "Multi-Dynasty", "Helicopter Transfers", "Butler Service"],
+    "mapCoordinates": {
+      "lat": 11.1271,
+      "lng": 78.6569
+    },
+    "tags": [
+      "Ultimate Luxury",
+      "Multi-Dynasty",
+      "Helicopter Transfers",
+      "Butler Service"
+    ],
     "featured": true
   }
 ]
