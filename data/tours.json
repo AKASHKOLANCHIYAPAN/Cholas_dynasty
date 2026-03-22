@@ -13,10 +13,10 @@
     "maxGuests": 8,
     "rating": 4.9,
     "reviews": 247,
-    "heroImage": "https://images.pexels.com/photos/17526538/pexels-photo-17526538.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "heroImage": "images/chola dynasty.jpeg",
     "gallery": [
-      "https://images.pexels.com/photos/17526538/pexels-photo-17526538.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/3522880/pexels-photo-3522880.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "images/chola dynasty.jpeg",
+      "images/chola dynasty.jpeg"
     ],
     "destinations": [
       "Thanjavur",
@@ -96,10 +96,10 @@
     "maxGuests": 10,
     "rating": 4.8,
     "reviews": 312,
-    "heroImage": "https://images.pexels.com/photos/3522880/pexels-photo-3522880.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "heroImage": "images/pandya dynasty.jpeg",
     "gallery": [
-      "https://images.pexels.com/photos/3522880/pexels-photo-3522880.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/17526538/pexels-photo-17526538.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "images/pandya dynasty.jpeg",
+      "images/pandya dynasty.jpeg"
     ],
     "destinations": [
       "Madurai",
@@ -184,10 +184,10 @@
     "maxGuests": 6,
     "rating": 4.9,
     "reviews": 189,
-    "heroImage": "https://images.pexels.com/photos/3522888/pexels-photo-3522888.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "heroImage": "images/chetinaad aristrocery.jpeg",
     "gallery": [
-      "https://images.pexels.com/photos/3522888/pexels-photo-3522888.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "images/chetinaad aristrocery.jpeg",
+      "images/chetinaad aristrocery.jpeg"
     ],
     "destinations": [
       "Karaikudi",
@@ -262,10 +262,10 @@
     "maxGuests": 12,
     "rating": 4.7,
     "reviews": 278,
-    "heroImage": "https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "heroImage": "images/pallava dynasty.jpeg",
     "gallery": [
-      "https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/3522888/pexels-photo-3522888.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "images/pallava dynasty.jpeg",
+      "images/pallava dynasty.jpeg"
     ],
     "destinations": [
       "Mahabalipuram",
@@ -345,10 +345,10 @@
     "maxGuests": 10,
     "rating": 4.8,
     "reviews": 198,
-    "heroImage": "https://images.pexels.com/photos/7391924/pexels-photo-7391924.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "heroImage": "images/scare shores.jpeg",
     "gallery": [
-      "https://images.pexels.com/photos/7391924/pexels-photo-7391924.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/9310629/pexels-photo-9310629.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "images/scare shores.jpeg",
+      "images/scare shores.jpeg"
     ],
     "destinations": [
       "Rameswaram",
@@ -439,10 +439,10 @@
     "maxGuests": 4,
     "rating": 5.0,
     "reviews": 56,
-    "heroImage": "https://images.pexels.com/photos/9310629/pexels-photo-9310629.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "heroImage": "images/chola dynasty.jpeg",
     "gallery": [
-      "https://images.pexels.com/photos/9310629/pexels-photo-9310629.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/11051351/pexels-photo-11051351.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "images/chola dynasty.jpeg",
+      "images/pandya dynasty.jpeg"
     ],
     "destinations": [
       "Chennai",
